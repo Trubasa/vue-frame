@@ -20,7 +20,7 @@ const store = new Vuex.Store({
       state.windowObj = val;
     },
     changeScreenType: (state, val) => {
-      state.windowObj = val;
+      state.screenType = val;
     },
   }
 });
